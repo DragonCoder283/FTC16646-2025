@@ -46,4 +46,9 @@ public class CMD_HandleReadyToDeploy extends CommandBase {
             );
         }
     }
+
+    @Override
+    public boolean isFinished(){
+        return true;
+    }
 }

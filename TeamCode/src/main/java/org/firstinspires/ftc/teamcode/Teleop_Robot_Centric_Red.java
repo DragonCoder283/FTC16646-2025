@@ -29,10 +29,8 @@ public class Teleop_Robot_Centric_Red extends LinearOpMode {
 //     public SUB_Bucket m_bucket;
      private GamepadEx m_driverOp;
      private GamepadEx m_toolOp;
-     private boolean m_setFieldCentric = false;
 
-     private static ElapsedTime m_runTime = new ElapsedTime();
-     private ElapsedTime m_releaseTimeout = new ElapsedTime();
+     private static final ElapsedTime m_runTime = new ElapsedTime();
 
      public void initialize() {
           telemetry.clearAll();

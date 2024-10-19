@@ -47,4 +47,9 @@ public class CMD_HandleReadyToIntake extends CommandBase {
             );
         }
     }
+
+    @Override
+    public boolean isFinished(){
+        return true;
+    }
 }
